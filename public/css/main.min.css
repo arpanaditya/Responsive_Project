@@ -918,10 +918,10 @@ header .container nav ul li a:hover {
 }
 
 .experts {
-  width: 615px; 
-  height: 375px; 
-  overflow: hidden; 
-  margin: 0px auto; 
+  width: 615px;
+  height: 375px;
+  overflow: hidden;
+  margin: 0px auto;
   outline: none;
 }
 
@@ -1275,14 +1275,12 @@ header .container nav ul li a:hover {
     justify-content: center;
     align-items: center;
   }
-
 }
 
 @media (max-width: 768px) {
   .testomonials .container {
     grid-template-columns: repeat(1, 1fr);
   }
-
 }
 
 .testomonialsItem {
@@ -5036,168 +5034,297 @@ html [type="button"] {
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    * {
-        /* border: solid red; */
-    }
-    .hero {
-        height: 1014px !important;
-    }
-    .UiROQ {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .courseStats .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-    .learingToEarning-header {
-        display: flex;
-        flex-direction: column;
-    }
-    .learingToEarning-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .oaJI {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0px 15px 0px 15px;
-    }
-    .fzKGFV {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .ProgramDetails__Wrapper-sc-1h0d9ef-0  {
-        padding: 0px 15px 0px 15px;
-    }
-    .cFaWdI  {
-        padding: 0px 15px 0px 15px;
-    }
-    .bPKObZ {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .mentors {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .ctgMml {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .gjEa-DE {
-        display: flex;
-        flex-direction: row !important;
-    }
+  * {
+    /* border: solid red; */
+  }
+  .hero {
+    height: 1014px !important;
+  }
+  .UiROQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .courseStats .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .learingToEarning-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .learingToEarning-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .oaJI {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px 0px 15px;
+  }
+  .fzKGFV {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .ProgramDetails__Wrapper-sc-1h0d9ef-0 {
+    padding: 0px 15px 0px 15px;
+  }
+  .cFaWdI {
+    padding: 0px 15px 0px 15px;
+  }
+  .bPKObZ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mentors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ctgMml {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .gjEa-DE {
+    display: flex;
+    flex-direction: row !important;
+  }
 }
 @media screen and (min-width: 480px) and (max-width: 767px) {
-    * {
-        /* border: solid red; */
-    }
-    .hero {
-        height: 66.7rem !important;
-    }
-    .UiROQ {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .courseStats .container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-    .learingToEarning-header {
-        display: flex;
-        flex-direction: column;
-    }
-    .learingToEarning-container {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .oaJI {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0px 15px 0px 15px;
-    }
-    .fzKGFV {
-        /* width: 80%;
+  * {
+    /* border: solid red; */
+  }
+  .hero {
+    height: 66.7rem !important;
+  }
+  .UiROQ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .courseStats .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .learingToEarning-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .learingToEarning-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .oaJI {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 15px 0px 15px;
+  }
+  .fzKGFV {
+    /* width: 80%;
         display: grid;
         grid-template-columns: 1fr; */
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-    .kcebfA {
-      padding: 0px 45px 0px 45px;
-    }
-    .ProgramDetails__Wrapper-sc-1h0d9ef-0  {
-        padding: 0px 15px 0px 15px;
-    }
-    .cFaWdI  {
-        padding: 0px 15px 0px 15px;
-    }
-    .bPKObZ {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .experts {
-      width: 555px;
-    }
-    .mentors {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .kqXyne {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .kqXyne a {
-      margin-top: 15px;
-    }
-    .ctgMml {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .gjEa-DE {
-        /* display: flex;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .kcebfA {
+    padding: 0px 45px 0px 45px;
+  }
+  .ProgramDetails__Wrapper-sc-1h0d9ef-0 {
+    padding: 0px 15px 0px 15px;
+  }
+  .cFaWdI {
+    padding: 0px 15px 0px 15px;
+  }
+  .bPKObZ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .experts {
+    width: 555px;
+  }
+  .mentors {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .kqXyne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .kqXyne a {
+    margin-top: 15px;
+  }
+  .ctgMml {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .gjEa-DE {
+    /* display: flex;
         flex-direction: column; */
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    .doAzgv {
-      margin: auto;
-    }
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .doAzgv {
+    margin: auto;
+  }
 }
 @media screen and (min-width: 300px) and (max-width: 479px) {
-  
+  * {
+    /* border: solid red; */
+  }
+  header .btn-secondary span {
+    display: none;
+  }
+  .hero-content .hero-stats {
+    scale: 0.8;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    position: relative;
+    right: 2rem;
+  }
+
+  .hero-content .hero-stats .item {
+    gap: 0.5rem;
+  }
+  .hero {
+    height: 62.1rem !important;
+  }
+  .kRakSq {
+    scale: 0.8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .kRakSq img {
+    scale: 0.3;
+    position: relative;
+    left: 2rem;
+    bottom: 0.5rem;
+  }
+  .kRakSq p {
+      font-size: 1rem;
+      position: relative;
+      right: 1rem;
+  }
+  .kRakSq h3 {
+    position: relative;
+    right: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .jzVKYQ {
+    scale: 0.7;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10rem;
+  }
+  .jzVKYQ img {
+    padding-top: 2rem;
+  }
+  .bfwvNG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 15rem;
+    font-weight: bold;
+  }
+  .courseStats:nth-child(3) {
+    margin: 0 !important;
+    position: relative;
+    bottom: 15rem;
+  }
+  .learingToEarning {
+    margin-top: 0 !important;
+  }
+  .serviceDetails {
+    margin-top: 0 !important;
+  }
+  .serviceDetails:nth-child(0) {
+    display: none;
+  }
+  .oaJI {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .oaJI h2 img {
+    display: none;
+  }
+  .jyxZbT {
+    scale: 80%;
+  }
+  .gOOKSp {
+    scale: 80%;
+    position: relative;
+    right: 1.5rem;
+  }
+  .eVRFUb {
+    scale: 80%;
+    position: relative;
+    right: 2rem;
+  }
+  .eGQgWn h3, p {
+    scale: 80%;
+  }
+  .iliPgp {
+    scale: 80%;
+    padding: 0px;
+  }
+  .kiOwpZ {
+    padding: 0px 15px 0px 15px;
+  }
+  .fzKGFV {
+    position: relative;
+    bottom: 15rem;
+  }
+  .bDuBSQ {
+    position: relative;
+    right: 2rem;
+  } 
+
+
+
+
+
+  .experts {
+    width: fit-content;
+    height: fit-content;
+  }
+  .experts img {
+    scale: 100%;
+  }
 }
