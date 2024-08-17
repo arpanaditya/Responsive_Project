@@ -5231,9 +5231,9 @@ html [type="button"] {
     bottom: 0.5rem;
   }
   .kRakSq p {
-      font-size: 1rem;
-      position: relative;
-      right: 1rem;
+    font-size: 1rem;
+    position: relative;
+    right: 1rem;
   }
   .kRakSq h3 {
     position: relative;
@@ -5297,7 +5297,8 @@ html [type="button"] {
     position: relative;
     right: 2rem;
   }
-  .eGQgWn h3, p {
+  .eGQgWn h3,
+  p {
     scale: 80%;
   }
   .iliPgp {
@@ -5314,11 +5315,75 @@ html [type="button"] {
   .bDuBSQ {
     position: relative;
     right: 2rem;
-  } 
-
-
-
-
+  }
+  .ProgramDetails__Wrapper-sc-1h0d9ef-0 {
+    position: relative;
+    bottom: 15rem;
+  }
+  .ContainerV2__AppContainer-sc-1vclult-0 {
+    padding: 0px 15px 0px 15px !important;
+  }
+  .fWwoMH {
+    scale: 80%;
+  }
+  .TabPanel__TabItem-svkp9e-0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .ProgramDetailsTabs__StyledTabsContentWrapper-sc-1v83u09-0 {
+    display: none;
+  }
+  .fresnel-greaterThanOrEqual-tabletXS img {
+    scale: 80%;
+  }
+  .MentorsInfo__InfoContainer-fhkr4c-0 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .MentorsInfo__InfoTags-fhkr4c-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .MasterClassBanner__ActionWrapper-tq3ze7-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    scale: 80%;
+  }
+  .TxSTV {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    scale: 80%;
+  }
+  .TxSTV img, h4 {
+    scale: 80%;
+  }
+  .Button__StyledButton-sc-17vqiw1-1 {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+  }
+  .Button__StyledContent-sc-17vqiw1-3 {
+    text-decoration: none;
+    background: var(--primary);
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+  }
 
   .experts {
     width: fit-content;
@@ -5326,5 +5391,11 @@ html [type="button"] {
   }
   .experts img {
     scale: 100%;
+  }
+  .hRoESd img {
+    display: none;
+  }
+  .Responsive__StyledMediaWrapper-v7nvuu-0 img {
+    scale: 80%;
   }
 }
