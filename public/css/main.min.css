@@ -4804,6 +4804,7 @@ html [type="button"] {
       color: rgb(82, 15, 183);
       margin-right: 5px;
     }
+
     .jrhxUE {
       line-height: 1.7;
       font-size: 14px;
@@ -5397,5 +5398,16 @@ html [type="button"] {
   }
   .Responsive__StyledMediaWrapper-v7nvuu-0 img {
     scale: 80%;
+  }
+  .Grid__StyledColumn-sc-9pjveq-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-us-form-btn {
+    position: relative;
+    left: 5rem;
+    bottom: 10rem;
   }
 }
