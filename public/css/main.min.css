@@ -5196,8 +5196,8 @@ html [type="button"] {
   }
 }
 @media screen and (min-width: 300px) and (max-width: 479px) {
-  * {
-    /* border: solid red; */
+  body {
+    height: 100vh;
   }
   header .btn-secondary span {
     display: none;
@@ -5399,6 +5399,9 @@ html [type="button"] {
   .Responsive__StyledMediaWrapper-v7nvuu-0 img {
     scale: 80%;
   }
+  .Typography__StyledTypography-txjhuo-1 img {
+    scale: 50%;
+  }
   .Grid__StyledColumn-sc-9pjveq-1 {
     display: flex;
     flex-direction: column;
@@ -5407,7 +5410,51 @@ html [type="button"] {
   }
   .contact-us-form-btn {
     position: relative;
-    left: 5rem;
     bottom: 10rem;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 140vh;
+  }
+  input[name="name"], input[type="tel"], input[name="email"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  .faq {
+    margin-top: 0;
+    position: relative;
+    bottom: 20rem;
+  }
+  footer {
+    position: relative;
+    bottom: 20rem;
+  }
+  .RequestCallbackBanner__StyledAppcontainer-sc-1kv1egz-0 {
+    scale: 80%;
+  }
+  .RequestCallbackBanner__StyledBoxWrapper-sc-1kv1egz-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .RequestCallbackBanner__StyledContentWrapper-sc-1kv1egz-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .RequestCallbackBanner__StyledContentWrapper-sc-1kv1egz-4 h3, h5 {
+    margin-top: 2rem;
+  }
+  .RequestCallbackBanner__StyledBoxWrapper-sc-1kv1egz-1 button {
+    margin-top: 2rem;
   }
 }
